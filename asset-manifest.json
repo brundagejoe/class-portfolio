@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fantasyBasketball/static/css/main.636fa8fe.css",
-    "main.js": "/fantasyBasketball/static/js/main.31a4dc18.js",
-    "static/js/787.1ed0c42c.chunk.js": "/fantasyBasketball/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/fantasyBasketball/index.html",
-    "main.636fa8fe.css.map": "/fantasyBasketball/static/css/main.636fa8fe.css.map",
-    "main.31a4dc18.js.map": "/fantasyBasketball/static/js/main.31a4dc18.js.map",
-    "787.1ed0c42c.chunk.js.map": "/fantasyBasketball/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/class-portfolio/static/css/main.636fa8fe.css",
+    "main.js": "/class-portfolio/static/js/main.e4130e36.js",
+    "static/js/787.1ed0c42c.chunk.js": "/class-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/class-portfolio/index.html",
+    "main.636fa8fe.css.map": "/class-portfolio/static/css/main.636fa8fe.css.map",
+    "main.e4130e36.js.map": "/class-portfolio/static/js/main.e4130e36.js.map",
+    "787.1ed0c42c.chunk.js.map": "/class-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.636fa8fe.css",
-    "static/js/main.31a4dc18.js"
+    "static/js/main.e4130e36.js"
   ]
 }

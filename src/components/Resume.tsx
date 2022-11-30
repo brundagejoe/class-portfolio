@@ -20,7 +20,9 @@ const ResumeItem: React.FC<ResumeProps> = ({
       {companyLink ? (
         <a
           href={companyLink}
-          className="text-3xl hover:text-blue-500 font-bold"
+          target="_blank"
+          className="transition-colors text-3xl hover:text-blue-500 font-bold"
+          rel="noreferrer"
         >
           {company}
         </a>

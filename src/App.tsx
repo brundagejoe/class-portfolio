@@ -1,7 +1,8 @@
-import About from "./pages/About";
+import Reel from "./pages/Reel";
 import Home from "./pages/Home";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/reel" element={<Reel />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </HashRouter>
     </div>

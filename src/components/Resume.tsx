@@ -16,7 +16,7 @@ const ResumeItem: React.FC<ResumeProps> = ({
   return (
     <div>
       <h2 className="text-3xl font-bold">{company}</h2>
-      <div className="text-gray-500 flex justify-between">
+      <div className="text-gray-500 flex flex-col lg:flex-row justify-between">
         <h3 className="text-xl font-semibold">{position}</h3>
         <p className="text-lg">
           {startDate}-{endDate}
@@ -35,7 +35,7 @@ const jobList: ResumeProps[] = [
   {
     company: "Neighbor",
     position: "Software Engineer",
-    startDate: "January 2022",
+    startDate: "Jan 2022",
     endDate: "Present",
     descriptions: [
       "Designed, developed, tested, and supported code in React, Ruby On Rails, and Go",
@@ -47,8 +47,8 @@ const jobList: ResumeProps[] = [
   {
     company: "Naccato Leadership Center",
     position: "Information Technology Specialist",
-    startDate: "December 2020",
-    endDate: "December 2021",
+    startDate: "Dec 2020",
+    endDate: "Dec 2021",
     descriptions: [
       "Managed a database of more than 30,000 clients and enhanced weekly email deliverability to each client",
       "Scripted in Python, C++, and Java to automate tasks for team members and increase daily productivity",
@@ -58,8 +58,8 @@ const jobList: ResumeProps[] = [
   {
     company: "Brigham Young University",
     position: "Teacher's Assistant",
-    startDate: "September 2020",
-    endDate: "December 2020",
+    startDate: "Sept 2020",
+    endDate: "Dec 2020",
     descriptions: [
       "Mentored and taught students in CS 142, which covers the fundamentals of computer programming",
       "Spent one-on-one time with students helping them solve issues with their code and debugging software issues on their computers",

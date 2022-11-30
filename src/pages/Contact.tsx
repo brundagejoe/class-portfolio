@@ -1,25 +1,22 @@
 import React from "react";
 const Contact: React.FC = () => {
   return (
-    <div className="container text-blue-500 text-xl font-bold mx-auto">
-      <a
-        href="mailto: joebrundage@icloud.com"
-        className="flex hover:text-blue-800 mx-auto w-fit"
-      >
-        joebrundage@icloud.com
-      </a>
-      <a
-        href="https://github.com/brundagejoe"
-        className="flex hover:text-blue-800 mx-auto w-fit"
-      >
-        Github
-      </a>
-      <a
-        href="https://www.linkedin.com/in/brundagejoe/"
-        className="flex hover:text-blue-800 mx-auto w-fit"
-      >
-        LinkedIn
-      </a>
+    <div className="container mx-auto">
+      <div className="mx-auto w-fit space-y-4">
+        <h1 className="text-6xl font-bold ">Get In Touch</h1>
+        <a
+          className="font-bold text-xl hover:text-blue-500 flex"
+          href="mailto: joebrundage@icloud.com"
+        >
+          joebrundage@icloud.com
+        </a>
+        <a
+          className="font-bold text-xl hover:text-blue-500 flex"
+          href="https://www.linkedin.com/in/brundagejoe/"
+        >
+          LinkedIn
+        </a>
+      </div>
     </div>
   );
 };

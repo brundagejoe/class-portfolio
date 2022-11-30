@@ -1,5 +1,6 @@
 interface ResumeProps {
   company: string;
+  companyLink?: string;
   position: string;
   startDate: string;
   endDate: string;
@@ -8,6 +9,7 @@ interface ResumeProps {
 
 const ResumeItem: React.FC<ResumeProps> = ({
   company,
+  companyLink,
   position,
   startDate,
   endDate,
@@ -15,14 +17,23 @@ const ResumeItem: React.FC<ResumeProps> = ({
 }) => {
   return (
     <div>
-      <h2 className="text-3xl font-bold">{company}</h2>
+      {companyLink ? (
+        <a
+          href={companyLink}
+          className="text-3xl hover:text-blue-500 font-bold"
+        >
+          {company}
+        </a>
+      ) : (
+        <h2 className="text-3xl font-bold">{company}</h2>
+      )}
       <div className="text-gray-500 flex flex-col lg:flex-row justify-between">
         <h3 className="text-xl font-semibold">{position}</h3>
         <p className="text-lg">
           {startDate}-{endDate}
         </p>
       </div>
-      <ul className="list-disc pl-10 mt-2 text-lg text-gray-500">
+      <ul className="list-disc pl-4 md:pl-10 mt-2 text-lg text-gray-500">
         {descriptions.map((description, index) => (
           <li key={`${company}-description-${index}`}>{description}</li>
         ))}
@@ -34,6 +45,7 @@ const ResumeItem: React.FC<ResumeProps> = ({
 const jobList: ResumeProps[] = [
   {
     company: "Neighbor",
+    companyLink: "https://neighbor.com",
     position: "Software Engineer",
     startDate: "Jan 2022",
     endDate: "Present",
@@ -46,6 +58,7 @@ const jobList: ResumeProps[] = [
   },
   {
     company: "Naccato Leadership Center",
+    companyLink: "https://rpchiro.com/",
     position: "Information Technology Specialist",
     startDate: "Dec 2020",
     endDate: "Dec 2021",
@@ -57,6 +70,7 @@ const jobList: ResumeProps[] = [
   },
   {
     company: "Brigham Young University",
+    companyLink: "https://byu.edu",
     position: "Teacher's Assistant",
     startDate: "Sept 2020",
     endDate: "Dec 2020",
@@ -76,6 +90,7 @@ const Resume: React.FC = () => {
           <ResumeItem
             key={`${job.company}-${index}`}
             company={job.company}
+            companyLink={job.companyLink}
             position={job.position}
             startDate={job.startDate}
             endDate={job.endDate}

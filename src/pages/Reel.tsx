@@ -1,6 +1,6 @@
 const Reel: React.FC = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mt-[-80px] flex place-items-center min-h-screen m-auto">
       <div className="w-fit mx-auto">
         <iframe
           width="560"

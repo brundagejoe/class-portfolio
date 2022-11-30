@@ -19,7 +19,7 @@ const Home: React.FC = () => {
   }, []);
 
   return (
-    <div className="container mx-auto p-5 lg:w-8/12 md:p-20">
+    <div className="container mx-auto mt-40 p-5 lg:w-8/12 md:p-20">
       <Biography />
       <div
         className={`transition-all duration-700 ${

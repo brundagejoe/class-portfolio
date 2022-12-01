@@ -1,3 +1,5 @@
+import { GradientText } from "./UI";
+
 interface ResumeProps {
   company: string;
   companyLink?: string;
@@ -86,9 +88,9 @@ const jobList: ResumeProps[] = [
 const Resume: React.FC = () => {
   return (
     <div>
-      <h1 className="w-fit bg-clip-text text-transparent bg-gradient-to-tr from-cyan-500 to-indigo-500 text-4xl mb-10 font-bold">
+      <GradientText className="mb-10" size="4xl">
         Experience
-      </h1>
+      </GradientText>
       <div className="space-y-10">
         {jobList.map((job, index) => (
           <ResumeItem

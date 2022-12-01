@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Contact from "./pages/Contact";
-import GithubLogo from "./images/github_logo.png";
 import Projects from "./pages/Projects";
 
 function App() {

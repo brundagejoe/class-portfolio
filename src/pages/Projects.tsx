@@ -4,7 +4,9 @@ const Projects: React.FC = () => {
   return (
     <div className="container mx-auto">
       <div className="mx-auto w-fit space-y-4">
-        <h1 className="text-5xl text-center font-bold ">My Projects</h1>
+        <h1 className="w-fit bg-clip-text text-transparent bg-gradient-to-tr from-cyan-500 to-indigo-500 py-1 text-5xl text-center font-bold ">
+          My Projects
+        </h1>
         <a
           className="font-bold text-xl space-x-4 items-center hover:text-blue-500 flex transition-colors"
           target="_blank"

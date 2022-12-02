@@ -40,9 +40,14 @@ export const DownArrow: React.FC<DownArrowProps> = ({ color, onClick }) => {
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="currentColor"
-      className={classNames("w-12 h-12", color && `stroke-${color}`, {
-        "cursor-pointer": onClick,
-      })}
+      className={classNames(
+        "w-12 h-12",
+        {
+          "cursor-pointer": onClick,
+          "stroke-blue-500": color === "blue",
+        },
+        {}
+      )}
       onClick={onClick ? onClick : undefined}
     >
       <path

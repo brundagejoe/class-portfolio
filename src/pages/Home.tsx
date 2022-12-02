@@ -44,11 +44,13 @@ const Home: React.FC = () => {
           resumeIsVisable ? "opacity-0" : "opacity-100"
         )}
       >
-        <DownArrow
-          //We do this so that the user can't click the arrow when the button is invisible
-          onClick={!resumeIsVisable ? scrollToResume : undefined}
-          color="blue-500"
-        />
+        <div className=" shadow-xl rounded-full p-2">
+          <DownArrow
+            //We do this so that the user can't click the arrow when the button is invisible
+            onClick={!resumeIsVisable ? scrollToResume : undefined}
+            color="blue"
+          />
+        </div>
       </div>
     </div>
   );

@@ -13,8 +13,6 @@ const Home: React.FC = () => {
       const offset = window.scrollY;
       if (offset > 50) {
         setResumeIsVisable(true);
-      } else {
-        setResumeIsVisable(false);
       }
     };
 

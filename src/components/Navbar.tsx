@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
       <Link to={"/"}>Home</Link>
       <Link to={"/projects"}>Projects</Link>
       <Link to={"/reel"}>Reel</Link>
-      <Link to={"/contact"}>Contact Me</Link>
+      {/* <Link to={"/contact"}>Contact Me</Link> */}
     </div>
   );
 };

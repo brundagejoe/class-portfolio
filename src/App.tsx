@@ -7,7 +7,7 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <div className="text-gray-700 min-h-screen">
+    <div className="text-gray-700 dark:text-white dark:bg-gray-900 min-h-screen">
       <HashRouter>
         <Navbar />
         <Routes>

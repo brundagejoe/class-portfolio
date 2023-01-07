@@ -31,13 +31,13 @@ const ResumeItem: React.FC<ResumeProps> = ({
       ) : (
         <h2 className="text-3xl font-bold">{company}</h2>
       )}
-      <div className="text-gray-500 flex flex-col lg:flex-row justify-between">
+      <div className="text-gray-500 dark:text-white flex flex-col lg:flex-row justify-between">
         <h3 className="text-xl font-semibold">{position}</h3>
         <p className="text-lg">
           {startDate}-{endDate}
         </p>
       </div>
-      <ul className="list-disc pl-4 md:pl-10 mt-2 text-lg text-gray-500">
+      <ul className="list-disc pl-4 md:pl-10 mt-2 text-lg text-gray-500 dark:text-white">
         {descriptions.map((description, index) => (
           <li key={`${company}-description-${index}`}>{description}</li>
         ))}

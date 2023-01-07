@@ -11,8 +11,12 @@ const Home: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
-      if (offset > 50) {
+      const screenHeight = window.innerHeight;
+
+      if (offset > 50 || screenHeight > 1000) {
         setResumeIsVisable(true);
+      } else {
+        setResumeIsVisable(false);
       }
     };
 

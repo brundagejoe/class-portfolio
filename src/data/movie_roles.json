@@ -1,0 +1,354 @@
+[
+  {
+    "title": "Star Wars",
+    "subtitle": "The Original Trilogy",
+    "roles": [
+      {
+        "character": "Luke Skywalker",
+        "role": "Joe"
+      },
+      {
+        "character": "Han Solo",
+        "role": "Harry"
+      },
+      {
+        "character": "Princess Leia",
+        "role": "Maggie"
+      },
+      {
+        "character": "Darth Vader",
+        "role": "Harry"
+      },
+      {
+        "character": "Obi-Wan Kenobi",
+        "role": "Charlie",
+        "note": "Obi-Wan's role was combined with some of the prequel material"
+      }
+    ]
+  },
+  {
+    "title": "Star Wars",
+    "subtitle": "The Prequel Trilogy",
+    "roles": [
+      {
+        "character": "Qui-Gon Jinn",
+        "role": "Joe"
+      },
+      {
+        "character": "Anakin Skywalker",
+        "role": "Harry"
+      },
+      {
+        "character": "Padmé Amidala",
+        "role": "Maggie"
+      },
+      {
+        "character": "Obi-Wan Kenobi",
+        "role": "Charlie",
+        "note": "Occassionally Joe would step in"
+      },
+      {
+        "character": "Darth Sidious",
+        "role": "Harry"
+      },
+      {
+        "character": "Darth Maul",
+        "role": "John",
+        "note": "Occassionally Harry"
+      },
+      {
+        "character": "Count Dooku",
+        "role": "Harry"
+      }
+    ]
+  },
+  {
+    "title": "Indiana Jones",
+    "subtitle": "Raiders of The Lost Ark",
+    "roles": [
+      {
+        "character": "Indiana Jones",
+        "role": "Charlie"
+      },
+      {
+        "character": "Marion Ravenwood",
+        "role": "Maggie"
+      },
+      {
+        "character": "Sallah",
+        "role": "Charlie",
+        "note": "Sallah's role would be extended"
+      },
+      {
+        "character": "Dr Henry Jones",
+        "role": "Joe",
+        "note": "Joe would take the role of Dr Jones only when Charlie was Indiana"
+      },
+      {
+        "character": "René Belloq",
+        "role": "Harry"
+      }
+    ]
+  },
+  {
+    "title": "The Book of Mormon",
+    "roles": [
+      {
+        "character": "Nephi",
+        "role": "Joe"
+      },
+      {
+        "character": "Laman",
+        "role": "Harry"
+      },
+      {
+        "character": "Sam",
+        "role": "Charlie"
+      },
+      {
+        "character": "Daughter of Ishmael",
+        "role": "Maggie",
+        "note": "Daughter of Ishmael's role would be extended"
+      }
+    ]
+  },
+  {
+    "title": "Super Mario Bros",
+    "roles": [
+      {
+        "character": "Mario",
+        "role": "Joe"
+      },
+      {
+        "character": "Luigi",
+        "role": "Charlie"
+      },
+      {
+        "character": "Princess Peach",
+        "role": "Maggie"
+      },
+      {
+        "character": "Bowser",
+        "role": "Harry"
+      },
+      {
+        "character": "Toad",
+        "role": "John"
+      },
+      {
+        "character": "Blue Toad",
+        "role": "Jack"
+      }
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean",
+    "roles": [
+      {
+        "character": "Captain Jack Sparrow",
+        "role": "Harry",
+        "note": "When Harry would fill other roles, Charlie would stand in"
+      },
+      {
+        "character": "Elizabeth Swann",
+        "role": "Maggie"
+      },
+      {
+        "character": "Will Turner",
+        "role": "Joe",
+        "note": "As Joe aged out, Charlie took the role"
+      },
+      {
+        "character": "Barbossa",
+        "role": "Harry"
+      },
+      {
+        "character": "Davy Jones",
+        "role": "Harry"
+      },
+      {
+        "character": "James Norrington",
+        "role": "Harry"
+      },
+      {
+        "character": "Bootstrap Bill",
+        "role": "Harry"
+      },
+      {
+        "character": "Governor Swann",
+        "role": "Harry"
+      },
+      {
+        "character": "Joshamee Gibbs",
+        "role": "Harry"
+      },
+      {
+        "character": "Cutler Beckett",
+        "role": "Harry"
+      }
+    ]
+  },
+  {
+    "title": "The Founding of the US",
+    "roles": [
+      {
+        "character": "George Washington",
+        "role": "Joe"
+      },
+      {
+        "character": "Unnamed Girl Character",
+        "role": "Maggie"
+      },
+      {
+        "character": "General Cornwallis",
+        "role": "Harry"
+      },
+      {
+        "character": "Thomas Jefferson",
+        "role": "Charlie"
+      }
+    ]
+  },
+  {
+    "title": "Wizards of Waverly Place",
+    "roles": [
+      {
+        "character": "Alex Russo",
+        "role": "Maggie"
+      },
+      {
+        "character": "Justin Russo",
+        "role": "Joe"
+      },
+      {
+        "character": "Max Russo",
+        "role": "Harry"
+      }
+    ]
+  },
+  {
+    "title": "Harry Potter",
+    "roles": [
+      {
+        "character": "Harry Potter",
+        "role": "Joe"
+      },
+      {
+        "character": "Hermione Granger",
+        "role": "Maggie"
+      },
+      {
+        "character": "Voldemort",
+        "role": "Harry"
+      },
+      {
+        "character": "Draco Malfoy",
+        "role": "Harry"
+      },
+      {
+        "character": "Severus Snape",
+        "role": "Harry"
+      },
+      {
+        "character": "Ron Weasley",
+        "role": "Charlie"
+      }
+    ]
+  },
+  {
+    "title": "Back to the Future",
+    "roles": [
+      {
+        "character": "Marty McFly",
+        "role": "Charlie"
+      },
+      {
+        "character": "Doc Brown",
+        "role": "Joe",
+        "note": "When Joe was gone, Harry stood in"
+      },
+      {
+        "character": "Biff Tannen",
+        "role": "Harry"
+      },
+      {
+        "character": "Lorraine Baines",
+        "role": "Maggie",
+        "note": "Lorraine's role was extended as someone well aware of time travel"
+      }
+    ]
+  },
+  {
+    "title": "The Beatles",
+    "roles": [
+      {
+        "character": "John Lennon",
+        "role": "Maggie",
+        "note": "The role was adapted to Jan Lennon, but other attributes remained the same"
+      },
+      {
+        "character": "Paul McCartney",
+        "role": "Joe"
+      },
+      {
+        "character": "George Harrison",
+        "role": "Harry"
+      },
+      {
+        "character": "Ringo Starr",
+        "role": "Charlie"
+      }
+    ]
+  },
+  {
+    "title": "The Muppets",
+    "roles": [
+      {
+        "character": "Kermit the Frog",
+        "role": "Joe"
+      },
+      {
+        "character": "Miss Piggy",
+        "role": "Maggie"
+      },
+      {
+        "character": "Fozzie Bear",
+        "role": "Charlie"
+      },
+      {
+        "character": "Gonzo",
+        "role": "Charlie"
+      },
+      {
+        "character": "Animal",
+        "role": "Harry"
+      }
+    ]
+  },
+  {
+    "title": "Backyardigans",
+    "roles": [
+      {
+        "character": "Uniqua",
+        "role": "Maggie"
+      },
+      {
+        "character": "Tasha",
+        "role": "Maggie"
+      },
+      {
+        "character": "Pablo",
+        "role": "Harry",
+        "note": "When Pablo's role was really cool it was played by Joe"
+      },
+      {
+        "character": "Tyrone",
+        "role": "Joe"
+      },
+      {
+        "character": "Austin",
+        "role": "Charlie"
+      }
+    ]
+  }
+]
